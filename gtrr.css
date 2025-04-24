@@ -125,10 +125,71 @@ background-image: url("image/myimage4.png.png");
    margin-left: 27px;
    margin-top: 310px;
 }
-.in3 {
-   height: 600px;
-   width: 1300px;
-   margin-top: 50px;
-   margin-left: 130px;
-   background-image: url("image/myimage5.png.png");
+body {
+   font-family: Arial, sans-serif;
+   background: #fff;
+   color: #000;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   padding: 40px 20px;
+   text-align: center;
+}
+
+h1 {
+   font-size: 28px;
+   margin-bottom: 50px;
+}
+
+.features-row {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   flex-wrap: wrap;
+}
+
+.feature {
+   display: flex;
+   align-items: flex-start;
+   width: 300px;
+   gap: 15px;
+   text-align: left;
+}
+
+.icon {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: #007bff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 28px;
+   color: white;
+   flex-shrink: 0;
+}
+
+.wrench::before {
+   content: "🔧";
+}
+
+.camera::before {
+   content: "📷";
+}
+
+.doc::before {
+   content: "📄";
+}
+
+.text h2 {
+   font-size: 16px;
+   margin: 0 0 6px;
+}
+
+.text p {
+   font-size: 14px;
+   margin: 0;
+   line-height: 1.4;
 }

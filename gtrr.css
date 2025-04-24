@@ -940,113 +940,88 @@ height: 20px;
    height: 20px;
     }
 
-    /* Основной стиль */
-body {
-   margin: 0;
-   font-family: Arial, sans-serif;
-   background: #fff;
-   color: #000;
- }
- @media (max-width: 1200px) {
-   .head1, .menu, .container, .img393, .quote-section, .overlay {
-     width: 100%;
-     margin: 0;
-   }
-   .ine2 {
-     margin-left: 10%;
-   }
-   .t1 {
-     margin-left: 100px;
-   }
-   .quote-section {
-     margin-left: 0;
-   }
+/* Планшеты: до 1024px */
+@media (max-width: 1024px) {
    .partners-grid {
-     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
      margin-left: 0;
+   }
+ 
+   .img3932 {
+     padding: 0 10px;
+   }
+ 
+   .quote-section22,
+   .overlay50 {
+     width: 100%;
+     height: auto;
+   }
+ 
+   .overlay50 {
+     padding: 20px;
+     text-align: center;
+   }
+ 
+   .footer-top {
+     flex-direction: column;
+     gap: 30px;
+     align-items: center;
    }
  }
  
+ /* Смартфоны: до 768px */
  @media (max-width: 768px) {
-   .head1 {
-     flex-direction: column;
-     height: auto;
-   }
-   .menu {
-     flex-direction: column;
-     align-items: flex-start;
-   }
-   .img1 {
-     margin-left: 0;
-     width: 150px;
-     height: 150px;
-   }
-   .btn {
-     width: 100%;
-     text-align: center;
-   }
-   .features-row,
-   .ine5,
-   .concon1,
-   .info-content,
-   .info-content1,
-   .footer-top {
+   .header,
+   .nav {
      flex-direction: column;
      align-items: center;
    }
-   .feature,
-   .ine6, .ine7, .ine8,
-   .con1, .con2, .con3, .con4 {
-     width: 90% !important;
-     height: auto !important;
-     margin: 10px 0;
+ 
+   .hero {
+     flex-direction: column;
+     padding: 40px 20px;
    }
-   .text-block, .text-block1, .image-block1, .image-block2 {
-     width: 100% !important;
+ 
+   .hero-left img {
+     width: 100%;
+     height: auto;
    }
+ 
+   .partners-grid {
+     grid-template-columns: 1fr;
+     gap: 20px;
+   }
+ 
+   .review-card {
+     padding: 20px;
+   }
+ 
    .quote-form {
      flex-direction: column;
      gap: 10px;
    }
- }
  
- @media (max-width: 480px) {
-   h1, h2, h3, h4 {
-     font-size: 18px;
+   .quote-form input,
+   .quote-form button {
+     width: 100%;
    }
-   .text p, .quote-content p, .text-block p {
-     font-size: 14px;
-   }
-   .icon-wrench, .icon-camera, .icon-doc {
-     width: 60px;
-     height: 60px;
-   }
-   .decor-left, .decor-right {
-     display: none;
-   }
-   .review-card {
-     padding: 15px;
-   }
- }
  
- @media (max-width: 768px) {
-   .header {
-     flex-direction: column;
-     align-items: flex-start;
+   .img393,
+   .quote-section22 {
+     width: 100%;
      height: auto;
-     padding: 20px;
    }
  
-   .nav-menu {
-     flex-direction: column;
-     gap: 15px;
-     margin-top: 10px;
+   .img3932,
+   .quote-section222 {
+     padding: 0;
+     margin: 0;
    }
  
-   .header-contact {
-     margin-top: 15px;
-     flex-wrap: wrap;
+   /* Удаление ненужных обёрток */
+   .img3932,
+   .quote-section222 {
+     display: block !important;
    }
  }
- 
  

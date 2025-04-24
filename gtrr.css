@@ -1,15 +1,18 @@
 
 .head1{
-    height: 80зx;
+    height: 80px;
     background-color: #f3f3f3;
     width: 100%;
     display: flex;
     align-items: center;
     margin: 0;
-    position: fixed;
+
 
 }
+head{
+   position: fixed;
 
+}
 .logo{
     height: 80px;
     background-color: #0D7ADC;
@@ -39,6 +42,7 @@
 .t5{
    margin-right: 100px;
 }
+
 .img2{
    height: 25px;
    width: 25px;
@@ -49,10 +53,11 @@
    height: 750px;
    width: 1300px;
    margin: 0;
+   margin-top: -17px;
    background-image: url("image/myimage1.png.png");}
+   
  .ine2{
    margin-left: 500px;
-   margin-top: -17px;
  }
 
 a{
@@ -69,8 +74,27 @@ a{
    font-weight: 600;
    transition: 0.3s;
  }
-
- 
  .btn:hover {
    background-color: #005fa3;
  }
+ .ine4{
+   display: flex;
+ }
+ .ine6 {
+   height: 500px;
+   width: 300px;
+   margin: 0;
+   background-image: url("image/myimage2.png.png");}
+ .ine7 {
+   height: 500px;
+   width: 300px;
+   margin: 0;
+   background-image: url("image/myimage3.png.png");}
+   .ine8 {
+height: 500px;
+width: 300px;
+margin: 0;
+background-image: url("image/myimage4.png.png");}
+.t9{
+   margin: auto;
+}

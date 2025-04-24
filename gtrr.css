@@ -507,3 +507,177 @@ h1 {
 
 
 }
+ 
+ .reviews-section {
+   padding: 50px 20px;
+   max-width: 1100px;
+   margin: 0 auto;
+   text-align: center;
+ }
+ 
+ .reviews-section h2 {
+   font-size: 26px;
+   margin-bottom: 10px;
+ }
+ 
+ .underline {
+   width: 50px;
+   height: 4px;
+   background: #0e71eb;
+   margin: 0 auto 30px;
+ }
+ 
+ .review-card {
+   position: relative;
+   background: #fff;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   padding: 30px;
+   margin-bottom: 40px;
+   text-align: left;
+ }
+ 
+ .review-card blockquote {
+   margin: 0;
+   font-style: italic;
+   position: relative;
+   padding-left: 30px;
+ }
+ 
+ .review-card blockquote::before {
+   content: "“";
+   font-size: 40px;
+   color: #0e71eb;
+   position: absolute;
+   left: 0;
+   top: -10px;
+ }
+ 
+ .review-card footer {
+   margin-top: 20px;
+   font-weight: bold;
+ }
+ 
+ .review-card footer span {
+   display: block;
+   font-weight: normal;
+   color: #666;
+   font-size: 14px;
+ }
+ 
+ .decor {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 50px;
+   opacity: 0.3;
+ }
+ 
+ .decor-left {
+   left: -60px;
+ }
+ 
+ .decor-right {
+   right: -60px;
+   }
+
+    
+    .quote-section {
+      background-image: url("image/myimage27.png.jpg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      height: 300px;
+      width: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      margin-left: 150px;
+    }
+    
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      height: 220px;
+
+      width: 1200px;
+      text-align: left;
+      max-width: 1200px;
+    }
+    
+    .quote-content h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .quote-content p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      max-width: 500px;
+    }
+    
+    .quote-form {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    
+    .quote-form input {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+      color: #fff;
+      flex: 1;
+      min-width: 180px;
+    }
+    
+    .quote-form input::placeholder {
+      color: #ccc;
+    }
+    
+    .quote-form button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      min-width: 120px;
+    }
+    
+    .quote-form button:hover {
+      background-color: #0056b3;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+    }
+    
+    .installation-section {
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .installation-content {
+      border-left: 4px solid #0e71eb;
+      padding-left: 20px;
+      max-width: 900px;
+    }
+    
+    .installation-content h3 {
+      margin-top: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .installation-content p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #333;
+      margin-top: 16px;
+    }
+    

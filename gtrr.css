@@ -508,16 +508,18 @@ h1 {
 .text1{
    margin-top: 50px;
 }
-.partners-section {
-   margin-left: 800px;
+.partners-section444 {
    justify-content: center;
    align-items: center;   padding: 40px 20px;
    text-align: center;
 }
 .our{
-   margin-left: -700px;
 }
-
+.img3932{
+   justify-content: center;
+   align-items: center;
+display: flex;
+}
 .partners-section h2 {
    font-size: 24px;
    margin-bottom: 10px;
@@ -528,10 +530,8 @@ h1 {
    width: 50px;
    height: 4px;
    background-color: #0e71eb;
-justify-content: center;
-align-items: center;
-margin-left: 725px;
    margin-bottom: 30px;
+   margin: auto;
 }
 
 .partners-grid {
@@ -648,6 +648,47 @@ margin-left: 725px;
 
 
 }
+.img3932 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+ 
+ .partners-section444 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 40px 20px;
+   text-align: center;
+   max-width: 1300px;
+   width: 100%;
+ }
+ 
+ .our {
+   font-size: 24px;
+   margin-bottom: 10px;
+   color: #222;
+ }
+ 
+ .underline4 {
+   width: 50px;
+   height: 4px;
+   background-color: #0e71eb;
+   margin: 0 auto 30px;
+ }
+ 
+ .partners-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 30px;
+   justify-content: center;
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ 
  
  .reviews-section {
    padding: 50px 20px;
@@ -723,9 +764,8 @@ margin-left: 725px;
    }
 
     
-    .quote-section {
+    .quote-section22 {
       background-image: url("image/myimage27.png.jpg");
-      background-size: cover;
       background-position: center;
       position: relative;
       height: 300px;
@@ -734,27 +774,27 @@ margin-left: 725px;
       align-items: center;
       justify-content: center;
       color: #fff;
-      margin-left: 150px;
-      margin-left: 900px;
+
+
     }
-    
-    .overlay5 {
+    .overlay50 {
       background-color: rgba(0, 0, 0, 0.5);
       padding: 40px;
       height: 220px;
-
+      align-items: center;
+      justify-content: center;
       width: 1200px;
       text-align: left;
       max-width: 1200px;
     }
     
-    .quote-content h2 {
+    .quote-content22 h2 {
       font-size: 24px;
       margin-bottom: 10px;
       font-weight: bold;
     }
     
-    .quote-content p {
+    .quote-content22 p {
       font-size: 16px;
       margin-bottom: 20px;
       max-width: 500px;
@@ -792,6 +832,10 @@ margin-left: 725px;
     .quote-form button:hover {
       background-color: #0056b3;
     }
+    .quote-section222{
+      justify-content: center;
+      align-items: center;
+      display: flex;   }
     body {
       margin: 0;
       font-family: Arial, sans-serif;
